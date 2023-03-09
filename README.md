@@ -1,5 +1,4 @@
 My Attempt at Learning React
-..
 
 
 
