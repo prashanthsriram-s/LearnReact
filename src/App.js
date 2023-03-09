@@ -24,12 +24,15 @@ import CustomGallery from './CustomGallery';
 
 // export default App;
 
+function Greeter(){
+  return <h1>Hello, World!</h1>;
+}
 
 
 export default function App(){
   return (
   <>
-    <h1>Hello, World!</h1>
+    <Greeter />
     <CustomGallery imgs = {[
                       {src:"https://upload.wikimedia.org/wikipedia/en/8/82/Lightning_McQueen.png", alt:"Pic1"},
                       {src:"https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-1fndzcd_41017374.jpeg?region=0,0,600,600", alt:"Pic2"},
